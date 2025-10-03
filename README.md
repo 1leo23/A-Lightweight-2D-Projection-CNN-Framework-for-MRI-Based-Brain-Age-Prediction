@@ -155,7 +155,7 @@ For each MRI scan, we generate **6 types of 2D projections** across **3 anatomic
 
 <div align="center">
 
-![Projection Overview](images/投影片3.JPG)
+![Projection Overview](images/投影片1.JPG)
 
 *Figure 1: Six-channel projection features from three anatomical planes (axial, coronal, sagittal)*
 
@@ -193,7 +193,7 @@ python 2D_Projection/pipeline.py
 
 <div align="center">
 
-![Architecture](images/投影片4.JPG)
+![Architecture](images/投影片2.JPG)
 
 *Figure 2: Lightweight 2D CNN architecture with sex covariate integration*
 
@@ -241,7 +241,7 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 <div align="center">
 
-![Comparison Table](images/投影片2.JPG)
+![Comparison Table](images/投影片4.JPG)
 
 *Table: Comparison with state-of-the-art brain age estimation methods*
 
@@ -272,7 +272,7 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 <div align="center">
 
-![Grad-CAM](images/投影片1.JPG)
+![Grad-CAM](images/投影片3.JPG)
 
 *Figure 3: Age-specific attention patterns revealed by Grad-CAM*
 
@@ -368,17 +368,3 @@ For questions or collaborations:
 - **Repository:** [A-Lightweight-2D-Projection-CNN-Framework-for-MRI-Based-Brain-Age-Prediction](https://github.com/1leo23/A-Lightweight-2D-Projection-CNN-Framework-for-MRI-Based-Brain-Age-Prediction)
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-<div align="center">
-
-**Star this repo if you find it helpful!**
-
-Made with passion for the neuroscience community
-
-</div>
