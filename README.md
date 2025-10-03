@@ -157,7 +157,7 @@ For each MRI scan, we generate **6 types of 2D projections** across **3 anatomic
 
 ![Projection Overview](images/投影片1.JPG)
 
-*Figure 1: Six-channel projection features from three anatomical planes (axial, coronal, sagittal)*
+
 
 </div>
 
@@ -195,7 +195,6 @@ python 2D_Projection/pipeline.py
 
 ![Architecture](images/投影片2.JPG)
 
-*Figure 2: Lightweight 2D CNN architecture with sex covariate integration*
 
 </div>
 
@@ -243,26 +242,15 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 ![Comparison Table](images/投影片4.JPG)
 
-*Table: Comparison with state-of-the-art brain age estimation methods*
 
 </div>
-
-### Our Results Summary
-
-| Model Configuration | Test MAE | Parameters | Training Time |
-|---------------------|----------|------------|---------------|
-| Single-plane (Axial) | 2.86 | 414,785 | 1.5 h |
-| Single-plane (Coronal) | 2.80 | 414,785 | 1.5 h |
-| Single-plane (Sagittal) | 2.77 | 414,785 | 1.5 h |
-| **Three-plane Ensemble** | **2.50** | 1,244,355 | 4.5 h |
-| **Bias-corrected Ensemble** | **2.54** | 2,488,710 | 9 h |
 
 ### Key Achievements
 
 - **Better Accuracy:** MAE 2.50 vs 3.53 (Jönemo et al., 2023)
-- **Faster Training:** 1.5h vs 72-332h (traditional 3D CNNs)
-- **Reduced Bias:** Weighted training significantly reduces systematic errors
-- **Efficient Inference:** Real-time prediction capability
+- **Parameter Efficiency:** 414k parameters vs 3M (SFCN) - 86% reduction(Peng et al., 2021)
+- **Compact Model:** Comparable performance to models with 70M+ parameters (Lee et al., 2022)
+- **Reduced Bias:** Weighted training significantly reduces systematic errors across age groups
 
 ---
 
@@ -274,7 +262,6 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 ![Grad-CAM](images/投影片3.JPG)
 
-*Figure 3: Age-specific attention patterns revealed by Grad-CAM*
 
 </div>
 
