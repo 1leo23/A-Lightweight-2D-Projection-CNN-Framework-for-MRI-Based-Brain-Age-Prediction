@@ -121,7 +121,7 @@ python -c "import ants; import torch; print('Setup successful!')"
 We aggregated **eight publicly available datasets** with **7,649 healthy participants** (aged 5–89 years):
 <div align="center">
 
-![Projection Overview](images/dataset.png.JPG)
+![Projection Overview](images/dataset.png)
 
 
 
@@ -189,7 +189,7 @@ python 2D_Projection/pipeline.py
 
 <div align="center">
 
-![Comparison Table](images/Performance_Comparison.JPG)
+![Comparison Table](images/2D_CNN_architecture.JPG)
 
 
 </div>
@@ -236,7 +236,7 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 <div align="center">
 
-![Comparison Table](Performance Comparison.JPG)
+![Comparison Table](images/Performance_Comparison.JPG)
 
 
 </div>
