@@ -121,7 +121,7 @@ python -c "import ants; import torch; print('Setup successful!')"
 We aggregated **eight publicly available datasets** with **7,649 healthy participants** (aged 5–89 years):
 <div align="center">
 
-![Projection Overview](dataset.png)
+![Projection Overview](images/dataset.png.JPG)
 
 
 
@@ -151,7 +151,7 @@ For each MRI scan, we generate **6 types of 2D projections** across **3 anatomic
 
 <div align="center">
 
-![Projection Overview](2D_Projection.JPG)
+![Projection Overview](images/2D_Projection.JPG)
 
 
 
@@ -189,7 +189,7 @@ python 2D_Projection/pipeline.py
 
 <div align="center">
 
-![Architecture](2D CNN architecture.JPG)
+![Comparison Table](images/Performance_Comparison.JPG)
 
 
 </div>
@@ -256,7 +256,7 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 <div align="center">
 
-![Grad-CAM](Grad-CAM Heatmaps.JPG)
+![Grad-CAM](images/Grad-CAM_Heatmaps.JPG)
 
 
 </div>
