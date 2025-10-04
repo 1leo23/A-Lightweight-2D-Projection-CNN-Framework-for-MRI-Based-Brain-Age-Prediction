@@ -119,17 +119,13 @@ python -c "import ants; import torch; print('Setup successful!')"
 ## Dataset
 
 We aggregated **eight publicly available datasets** with **7,649 healthy participants** (aged 5–89 years):
+<div align="center">
 
-| Dataset | Description | N Subjects |
-|---------|-------------|------------|
-| ABIDE | Autism Brain Imaging Data Exchange | ~1,100 |
-| ADNI | Alzheimer's Disease Neuroimaging Initiative | ~600 |
-| BGSP | Brain Genomics Superstruct Project | ~1,500 |
-| HBN | Healthy Brain Network | ~2,500 |
-| CORR | Consortium for Reliability and Reproducibility | ~1,400 |
-| fcon_1000 | 1000 Functional Connectomes | ~1,200 |
-| ICBM | International Consortium for Brain Mapping | ~600 |
-| OASIS-3 | Open Access Series of Imaging Studies | ~1,100 |
+![Projection Overview](dataset.png)
+
+
+
+</div>
 
 ### Preprocessing Pipeline
 
@@ -155,7 +151,7 @@ For each MRI scan, we generate **6 types of 2D projections** across **3 anatomic
 
 <div align="center">
 
-![Projection Overview](images/投影片1.JPG)
+![Projection Overview](2D_Projection.JPG)
 
 
 
@@ -185,7 +181,7 @@ For each MRI scan, we generate **6 types of 2D projections** across **3 anatomic
 python 2D_Projection/pipeline.py
 ```
 
-**Output:** `(218 × 218 × 6)` tensor per anatomical plane
+**Output:** `(6 × 218 × 218)` tensor per anatomical plane
 
 ---
 
@@ -193,7 +189,7 @@ python 2D_Projection/pipeline.py
 
 <div align="center">
 
-![Architecture](images/投影片2.JPG)
+![Architecture](2D CNN architecture.JPG)
 
 
 </div>
@@ -240,7 +236,7 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 <div align="center">
 
-![Comparison Table](images/投影片4.JPG)
+![Comparison Table](Performance Comparison.JPG)
 
 
 </div>
@@ -260,7 +256,7 @@ jupyter notebook Modeling/Modeling(coronal).ipynb
 
 <div align="center">
 
-![Grad-CAM](images/投影片3.JPG)
+![Grad-CAM](Grad-CAM Heatmaps.JPG)
 
 
 </div>
