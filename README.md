@@ -329,16 +329,15 @@ While our framework achieves strong performance, several limitations should be n
 
 ## Citation
 
-This work is currently **under review** at IEEE Access.
+**Note:** This research is currently in preparation for submission to IEEE Access. Citation information will be available upon publication.
 
-```bibtex
-@article{chang2025lightweight,
-  title={A Lightweight 2D Projection CNN Framework for MRI-Based Brain Age Prediction},
-  author={Chang, Ting-An and Syu, Ruei-Chun},
-  journal={IEEE Access},
-  note={Under Review},
-  year={2025}
-}
+    @article{chang2025Brainage,
+      title={A Lightweight 2D Projection CNN Framework for MRI-Based Brain Age Prediction},
+      author={Chang, Ting-An and Syu, Ruei-Chun},
+      journal={IEEE Access},
+      note={In preparation},
+      year={2025}
+    }
 ```
 
 ---
