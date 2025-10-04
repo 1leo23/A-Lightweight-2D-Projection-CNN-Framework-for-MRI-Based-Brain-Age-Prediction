@@ -80,10 +80,11 @@ Brain age serves as a crucial biomarker for quantifying age-related structural c
 │   └── Modeling(coronal).ipynb # Training notebook
 │
 ├── images/                     # Documentation figures
-│   ├── 投影片1.JPG
-│   ├── 投影片2.JPG
-│   ├── 投影片3.JPG
-│   └── 投影片4.JPG
+│   ├── 2D_CNN_architecture.JPG
+│   ├── 2D_Projection.JPG
+│   ├── dataset.png
+│   ├── Grad-CAM_Heatmaps.JPG
+│   └── Performance_Comparison.JPG
 │
 ├── environment.yml             # Conda environment
 └── README.md                   # This file
