@@ -57,8 +57,7 @@ def batch_adaptive_normal(input_dir, output_dir):
     print("\n\u2705 全部處理完成！")
 
 if __name__ == "__main__":
-    # 修改這裡來設定你的資料夾路徑
+    
     input_folder = r"D:\data\ADNI\50~59"
     output_folder = r"D:\data\icbm\10~19\minmax2"
-
     batch_adaptive_normal(input_folder, output_folder)
