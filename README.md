@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
@@ -94,11 +94,21 @@ Brain age serves as a crucial biomarker for quantifying age-related structural c
 
 ## Installation
 
-### Prerequisites
+## Hardware and software used in our experiments:
 
-- Python 3.8+
-- CUDA 11.3+ (for GPU support)
-- Conda or Miniconda
+- **Preprocessing workstation**  
+  - Intel Core i7-14700F CPU  
+  - 24 GB RAM  
+  - ANTsPyX: 0.5.4  
+  - ANTsPyNet: 0.2.9  
+  - FSL: 6.0.7.17 (for FAST gray matter segmentation)  
+  - Used for N4 bias field correction, skull stripping, nonlinear registration, and intensity normalization.
+
+- **Model training environment**  
+  - Google Colab with NVIDIA A100 GPU  
+  - PyTorch 2.9.0 + CUDA 12.6  
+  - Maximum epochs: 400, batch size: 4, Adam optimizer with OneCycleLR scheduler.
+
 
 ### Setup Environment
 
