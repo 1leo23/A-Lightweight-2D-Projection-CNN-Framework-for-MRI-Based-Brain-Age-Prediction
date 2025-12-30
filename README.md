@@ -355,7 +355,7 @@ While our framework achieves strong performance, several limitations should be n
 - **Title:** A Lightweight 2D Projection CNN Framework for MRI-Based Brain Age Prediction
 - **Authors:** Chang, Ting-An and Syu, Ruei-Chun
 - **Journal:** IEEE Access
-- **Status:** Under review
+- **Status:** Major Revision
 - **Year:** 2025
 
 ---
