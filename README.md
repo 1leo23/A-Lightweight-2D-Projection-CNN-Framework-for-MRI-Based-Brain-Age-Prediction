@@ -61,33 +61,42 @@ Brain age serves as a crucial biomarker for quantifying age-related structural c
 
 ```
 2D_Proj_CNN/
-├── 2D_Projection/              # Projection generation modules
-│   ├── projection_mean.py      # Mean projection
-│   ├── projection_std.py       # Standard deviation projection
-│   ├── projection_max.py       # Maximum projection
-│   ├── projection_median.py    # Median projection (core slices)
-│   ├── merge_projections.py    # Merge 6 channels
-│   └── pipeline.py             # Complete projection pipeline
+├── 2D_Projection/ # Projection generation modules
+│ ├── projection_mean.py # Mean projection
+│ ├── projection_std.py # Standard deviation projection
+│ ├── projection_max.py # Maximum projection
+│ ├── projection_median.py # Median projection (core slices)
+│ ├── merge_projections.py # Merge 6 channels
+│ └── pipeline.py # Complete projection pipeline
 │
-├── Preprocessing/              # MRI preprocessing pipeline
-│   ├── n4_correction.py        # N4 bias field correction
-│   ├── brain_extraction.py     # Skull stripping (ANTsXNet)
-│   ├── mni_registration.py     # MNI152 registration
-│   ├── normalization.py        # Z-score & Min-Max normalization
-│   └── preprocessing_pipeline.py  # Complete preprocessing pipeline
+├── Preprocessing/ # MRI preprocessing pipeline
+│ ├── n4_correction.py # N4 bias field correction
+│ ├── brain_extraction.py # Skull stripping (ANTsXNet)
+│ ├── mni_registration.py # MNI152 registration
+│ ├── normalization.py # Z-score & Min-Max normalization
+│ └── preprocessing_pipeline.py # Complete preprocessing pipeline
 │
-├── Modeling/                   # Model training & evaluation
-│   └── Modeling(coronal).ipynb # Training notebook
+├── Modeling/ # Model training & evaluation
+│ └── Modeling(coronal).ipynb # Training notebook
 │
-├── images/                     # Documentation figures
-│   ├── 2D_CNN_architecture.JPG
-│   ├── 2D_Projection.JPG
-│   ├── dataset.png
-│   ├── Grad-CAM_Heatmaps.JPG
-│   └── Performance_Comparison.JPG
+├── Pretrained_models/ # Ready-to-use pretrained weights
+│ ├── s=1_Axi/
+│ ├── s=1_Cor/
+│ ├── s=1_Sag/
+│ ├── s=0.3_max=80_Axi/
+│ ├── s=0.3_max=80_Cor/
+│ ├── s=0.3_max=80_Sag/
+│ └── Inference.py # Example script for brain age prediction
 │
-├── environment.yml             # Conda environment
-└── README.md                   # This file
+├── images/ # Documentation figures
+│ ├── 2D_CNN_architecture.JPG
+│ ├── 2D_Projection.JPG
+│ ├── dataset.png
+│ ├── Grad-CAM_Heatmaps.JPG
+│ └── Performance_Comparison.JPG
+│
+├── environment.yml # Conda environment
+└── README.md # This file
 ```
 
 ---
