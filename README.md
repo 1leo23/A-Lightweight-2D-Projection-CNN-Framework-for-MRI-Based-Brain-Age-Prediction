@@ -94,7 +94,7 @@ Brain age serves as a crucial biomarker for quantifying age-related structural c
 
 ## Installation
 
-## Hardware and software used in our experiments:
+## Hardware and Software Used in Our Experiments:
 
 - **Preprocessing workstation**  
   - Intel Core i7-14700F CPU  
